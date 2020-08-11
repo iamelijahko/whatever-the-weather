@@ -20,7 +20,7 @@ Select *"You enter an area"*, this triggers everytime you enter an area you spec
 
 THEN THAT - "Webhooks" widget
 
-##### URL field, fill in "https://yourAccountName.pythonanywhere.com/ifttt
+##### URL field, fill in "*https://yourAccountName.pythonanywhere.com/ifttt*"
 ##### Method: POST (optional)
 ##### Content Type: text/plain (optional)
 ##### Body: (optional)
