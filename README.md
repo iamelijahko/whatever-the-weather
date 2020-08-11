@@ -1,5 +1,5 @@
-# Hot Spell Expelliarmus - Your personal heatwave alert ♨️📱</h1>
-### Author: Elijah Ko</h2>
+# Hot Spell Expelliarmus - Your personal heatwave alert ♨️📱<
+### Author: Elijah Ko
 
 Now that lockdown is continuing to ease, we're excited about the prospect of enjoying, safely, more of the great outdoors this summer. That also means a return to the very British hobby of getting sun tanning 🔆 in the parks 🏞 !
 
@@ -37,10 +37,8 @@ THEN THAT - "Webhooks" widget
    - Open an account from OpenWeather.com to gain your unique API key
 
 ### 3b. Processing data
-
-Using Python to parse the acquired data. If temperature in the next 2 hours is over 30 degree Celsius. Trigger an alert message to your email.
+- Using Python to parse the acquired data. If temperature in the next 2 hours is over 30 degree Celsius. Trigger an alert message to your email.
 
 ### 3c. Trigger output:
-
-Send alert to your mailbox with the following messages.
-"Subject: HOT SPELL ALERT! Body: Temperature in 2 hours will be {this_temp} degree Celsius. Stay cool and drink more water!"
+- Send alert to your mailbox with the following messages.
+- "Subject: HOT SPELL ALERT! Body: Temperature in 2 hours will be {this_temp} degree Celsius. Stay cool and drink more water!"
