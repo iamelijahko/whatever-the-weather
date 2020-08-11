@@ -16,7 +16,7 @@ The project can be broken down into five main sections:
 
 IF THIS - "Location" widget
 
-Select "You enter an area", this triggers everytime you enter an area you specify. In my case, I have chosen the Roundwood Park.
+Select *"You enter an area"*, this triggers everytime you enter an area you specify. In my case, I have chosen the Roundwood Park.
 
 THEN THAT - "Webhooks" widget
 
