@@ -32,10 +32,9 @@ THEN THAT - "Webhooks" widget
    - Go to Dashboard > Web Apps (Open Web tab) > click "Reload yourAccountName.pythonanywhere.com"
    
 ### 3. Grabbing weather data ("hot_spell_expelliarmus.py"):
-
-    - Make API call from https://openweathermap.org/api/one-call-api, to get current and forecast weather data.
-    - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={YOUR API KEY}
-    - Open an account from OpenWeather.com to gain your unique API key
+   - Make API call from https://openweathermap.org/api/one-call-api, to get current and forecast weather data.
+   - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={YOUR API KEY}
+   - Open an account from OpenWeather.com to gain your unique API key
 
 ### 4. Processing data:
 
