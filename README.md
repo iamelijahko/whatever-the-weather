@@ -7,7 +7,7 @@ However, even if you can enjoy the weather and manage social distancing, you cou
 
 Reference: https://www.bbc.co.uk/news/world-44937692?fbclid=IwAR0-Gwn56dI3zLNJpmcAFe5-rggRwHClo0LZMyxZuV5yt0BvqRkS7vI-8LA
 
-<h3>What if ... you can receive a hot spell warning once you step into your favourite local parks?</h3>
+### What if ... you can receive a hot spell warning once you step into your favourite local parks?
 
 The project can be broken down into three main sections:
 
