@@ -45,7 +45,7 @@ THEN THAT - "Webhooks" widget
 ###### Video demo: https://youtu.be/NK3kZEHtCiU
 Weather forecast app with graphical interface. User can search the weather of every city in the coming 3 hours.
 
-File you need: **"weather_forecast.py"** and **"config.ini"**
+File you need to run together: **"weather_forecast.py"** and **"config.ini"**
 
 5 different messages will appear on the pop-up window:
 - Freezing: Temperature lower than 5.0 degree Celsius
