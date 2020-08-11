@@ -25,6 +25,7 @@ def get_weather():
     else:
         return None
 
+    
 # Send an alert message to your email
 def send_mail(this_temp):
     port = 587
@@ -44,14 +45,17 @@ def send_mail(this_temp):
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def hello_world():
     return 'Hello from Flask!'
+
 
 @app.route("/ifttt", methods=["POST"])
 def handler():
     print("Message sent successfully from IFTTT")  # check if mail is sent from pythonanywhere.com, please refer to Web > Log Files > Serve log > click yourUserName.pythonanywhere.com.server.log
     weather = get_weather()
-    if weather[2] >= 30.0:  # temperature condition in Celsius
-        send_mail(weather[2])
+    if weather:
+        if weather[2] >= 30.0:  # temperature condition in Celsius
+            send_mail(weather[2])
     return ""
