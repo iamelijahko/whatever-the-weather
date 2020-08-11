@@ -35,7 +35,9 @@ Method: POST (optional)
     - Open an account from OpenWeather.com to gain your unique API key
 
 #### 3b. Processing data:
-    - Using Python to parse the acquired data. If temperature in the next 2 hours is over 30 degree Celsius. Trigger an alert message to your email.
+
+Using Python to parse the acquired data. If temperature in the next 2 hours is over 30 degree Celsius. Trigger an alert message to your email.
+
     
 #### 3c. Trigger output:
     - Send alert to your mailbox with the following messages.
