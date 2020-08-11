@@ -33,7 +33,7 @@ THEN THAT - "Webhooks" widget
    
 ### 3a. Grabbing weather data (run "hot_spell_expelliarmus.py" on pythonanywhere.com)
    - Make API call from https://openweathermap.org/api/one-call-api, to get current and forecast weather data.
-   - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={YOUR API KEY}
+   - API format - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={APIKEY}
    - Open an account from OpenWeather.com to gain your unique API key
 
 ### 3b. Processing data
