@@ -42,7 +42,9 @@ THEN THAT - "Webhooks" widget
 
 ## Bonus: Instant Weather Alert with GUI
 File you need: "weather_forecast.py" and "config.ini"
+
 Weather forecast app with graphical interface. User can search the weather of every city in the coming 3 hours.
+###### Video demo: https://youtu.be/NK3kZEHtCiU
 With 5 different messages on the pop-up window:
 - Freezing: Temperature lower than 5.0 degree Celsius
 - Cold: Temperature between 5.0 to 15.0 degree Celsius
