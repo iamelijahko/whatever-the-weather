@@ -4,7 +4,9 @@ Now that lockdown is continuing to ease, we're excited about the prospect of enj
 
 However, even if you can enjoy the weather and manage social distancing, you could be vulnerable to heat exhaustion 🥵. Particularly the elderly, people with conditions such as diabetes, young children and people working or exercising outdoors. Heat-stroke may set in which requires urgent medical help.
 
-What if ... you can receive a hot spell warning once you step into your favourite local parks?
+Reference: https://www.bbc.co.uk/news/world-44937692?fbclid=IwAR0-Gwn56dI3zLNJpmcAFe5-rggRwHClo0LZMyxZuV5yt0BvqRkS7vI-8LA
+
+<h3>What if ... you can receive a hot spell warning once you step into your favourite local parks?</h3>
 
 The project can be broken down into three main sections:
 
