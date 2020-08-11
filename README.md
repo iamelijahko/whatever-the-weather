@@ -1,4 +1,4 @@
-# Hot Spell Expelliarmus - Your personal heatwave alert ♨️📱<
+# Hot Spell Expelliarmus - Your personal heatwave alert ♨️📱
 ### Author: Elijah Ko
 
 Now that lockdown is continuing to ease, we're excited about the prospect of enjoying, safely, more of the great outdoors this summer. That also means a return to the very British hobby of getting sun tanning 🔆 in the parks 🏞 !
