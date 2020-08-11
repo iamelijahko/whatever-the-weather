@@ -5,14 +5,14 @@ Now that lockdown is continuing to ease, we're excited about the prospect of enj
 
 However, even if you can enjoy the weather and manage social distancing, you could be vulnerable to *heat exhaustion* 🥵 . Particularly the elderly, people with conditions such as diabetes, young children and people working or exercising outdoors. Heat-stroke may set in which requires urgent medical help.
 
-Reference: https://www.bbc.co.uk/news/world-44937692?fbclid=IwAR0-Gwn56dI3zLNJpmcAFe5-rggRwHClo0LZMyxZuV5yt0BvqRkS7vI-8LA
+###### Reference: https://www.bbc.co.uk/news/world-44937692?fbclid=IwAR0-Gwn56dI3zLNJpmcAFe5-rggRwHClo0LZMyxZuV5yt0BvqRkS7vI-8LA
 
 ### What if ... you can receive a hot spell warning once you step into your favourite local parks?
 
 The project can be broken down into three main sections:
 
 ### 1. Trigger an IFTTT command once you step into the park (IF "Location" THEN "Webhooks")
-Video instruction: https://youtu.be/0aIHCevDfS4
+###### Video instruction: https://youtu.be/0aIHCevDfS4
 
 IF THIS - "Location" widget
 
@@ -26,7 +26,7 @@ THEN THAT - "Webhooks" widget
 ##### Body: (optional)
     
 ### 2. IFTTT send a Webhook request (server) to Pythonanywhere.com to auto run the "hot_spell_expelliarmus.py" (client)
-Video instruction: https://youtu.be/sewhAOozGO8
+###### Video instruction: https://youtu.be/sewhAOozGO8
    - copy and paste the "hot_spell_expelliarmus.py" to (pythonanywhere.com > home > username > yourDirectory)
    - rememebr to "save" and "run" the program
    - Go to Dashboard > Web Apps (Open Web tab) > click "Reload yourAccountName.pythonanywhere.com"
