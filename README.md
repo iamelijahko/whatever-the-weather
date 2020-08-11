@@ -22,8 +22,8 @@ THEN THAT - "Webhooks" widget
 
 URL field, fill in "https://yourAccountName.pythonanywhere.com/ifttt
 ##### Method: POST (optional)
-Content Type: text/plain (optional)
-Body: (optional)
+##### Content Type: text/plain (optional)
+##### Body: (optional)
     
 #### 2. IFTTT send a Webhook request (server) to Pythonanywhere.com to auto run the "hot_spell_expelliarmus.py" (client)
 Video instruction: https://youtu.be/sewhAOozGO8
