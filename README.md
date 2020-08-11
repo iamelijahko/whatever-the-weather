@@ -8,7 +8,7 @@ What if ... you can receive a hot spell warning once you step into your favourit
 
 The project can be broken down into three main sections:
 
-1. Trigger an IFTTT command once you step into the park
+1. Trigger an IFTTT command once you step into the park (IF "Location" THEN "Webhooks")
    IF THIS -   "Location: widget
                 Select "You enter an area", this triggers everytime you enter an area you specify. In my case, I have chosen the Roundwood Park.
    THEN THAT - "Webhooks" widget
@@ -17,5 +17,21 @@ The project can be broken down into three main sections:
                 Content Type: text/plain (optional)
                 Body: (optional)
     
-               
+2. IFTTT send a Webhook request (server) to Pythonanywhere.com to auto run the "hot_spell_expelliarmus.py" (client)
+   - copy and paste the "hot_spell_expelliarmus.py" to (pythonanywhere.com > home > username > yourDirectory)
+   - rememebr to "save" and "run" the program
+   - Go to Dashboard > Web Apps (Open Web tab) > click "Reload yourAccountName.pythonanywhere.com"
    
+3a. Grabbing weather data ("hot_spell_expelliarmus.py"):
+    - Make API call from https://openweathermap.org/api/one-call-api, to get current and forecast weather data.
+    - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={YOUR API KEY}
+    - Open an account from OpenWeather.com to gain your unique API key
+
+3b. Processing data:
+    Using Python to parse the acquired data. If temperature in the next 2 hours is over 30 degree Celsius. Trigger an alert message to your email.
+    
+3c. Trigger output:
+    Send alert to your mailbox with the following messages.
+    "Subject: HOT SPELL ALERT!
+     Body: Temperature in 2 hours will be {this_temp} degree Celsius.
+           Stay cool and drink more water!"
