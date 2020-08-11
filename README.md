@@ -41,6 +41,8 @@ THEN THAT - "Webhooks" widget
 - Send alert to your mailbox with the following messages.
 - "Subject: HOT SPELL ALERT! Body: Temperature in 2 hours will be {this_temp} degree Celsius. Stay cool and drink more water!"
 
+That's it! All you need is to go to your local park, enjoy the sunshine, and wait for the trigger of the message if it's going to be too hot! Get hydrated and stay cool!
+
 ### Bonus: Instant Weather Alert with GUI
 ###### Video demo: https://youtu.be/NK3kZEHtCiU
 ###### P.S. Run on your local computer, no need to upload to pythonanywhere.com
