@@ -43,7 +43,7 @@ THEN THAT - "Webhooks" widget
 
 ### Bonus: Instant Weather Alert with GUI
 ###### Video demo: https://youtu.be/NK3kZEHtCiU
-###### Run on your local computer, no need to upload to pythonanywhere.com
+###### P.S. Run on your local computer, no need to upload to pythonanywhere.com
 Weather forecast app with graphical interface. User can search the weather of every city in the coming 3 hours.
 
 File you need to run together: **"weather_forecast.py"** and **"config.ini"**
