@@ -1,9 +1,9 @@
-<h1>Hot Spell Expelliarmus - Your personal heatwave alert</h1>
-<h2>Author: Elijah Ko</h2>
+# Hot Spell Expelliarmus - Your personal heatwave alert ♨️📱</h1>
+## Author: Elijah Ko</h2>
 
-Now that lockdown is continuing to ease, we're excited about the prospect of enjoying, safely, more of the great outdoors this summer. That also means a return to the very British hobby of getting sun tanning 🔆  in the parks 🏞!
+Now that lockdown is continuing to ease, we're excited about the prospect of enjoying, safely, more of the great outdoors this summer. That also means a return to the very British hobby of getting sun tanning 🔆 in the parks 🏞 !
 
-However, even if you can enjoy the weather and manage social distancing, you could be vulnerable to heat exhaustion 🥵. Particularly the elderly, people with conditions such as diabetes, young children and people working or exercising outdoors. Heat-stroke may set in which requires urgent medical help.
+However, even if you can enjoy the weather and manage social distancing, you could be vulnerable to *heat exhaustion* 🥵 . Particularly the elderly, people with conditions such as diabetes, young children and people working or exercising outdoors. Heat-stroke may set in which requires urgent medical help.
 
 Reference: https://www.bbc.co.uk/news/world-44937692?fbclid=IwAR0-Gwn56dI3zLNJpmcAFe5-rggRwHClo0LZMyxZuV5yt0BvqRkS7vI-8LA
 
