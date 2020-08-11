@@ -9,13 +9,13 @@ What if ... you can receive a hot spell warning once you step into your favourit
 The project can be broken down into three main sections:
 
 <h3>1. Trigger an IFTTT command once you step into the park (IF "Location" THEN "Webhooks")</h3>
-   <brIF THIS -   "Location: widget</br>
+   IF THIS -   "Location: widget</br>
                 Select "You enter an area", this triggers everytime you enter an area you specify. In my case, I have chosen the Roundwood Park.
-   <br>THEN THAT - "Webhooks" widget</br>
-                <br>URL field, fill in "https://yourAccountName.pythonanywhere.com/ifttt</br>
-                <br>Method: POST (optional)</br>
-                <br>Content Type: text/plain (optional)</br>
-                <br>Body: (optional)</br>
+   THEN THAT - "Webhooks" widget
+                URL field, fill in "https://yourAccountName.pythonanywhere.com/ifttt
+                Method: POST (optional)
+                Content Type: text/plain (optional)
+                Body: (optional)
     
 2. IFTTT send a Webhook request (server) to Pythonanywhere.com to auto run the "hot_spell_expelliarmus.py" (client)
    - copy and paste the "hot_spell_expelliarmus.py" to (pythonanywhere.com > home > username > yourDirectory)
