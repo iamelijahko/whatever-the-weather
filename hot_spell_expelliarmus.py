@@ -33,7 +33,7 @@ def send_mail(this_temp):
     sender_email = "sender@gmail.com"  # replace with your own email
     receiver_email = "receiver@gmail.com"  # replace with your own email
     password = "abcd1234efgh5678"  # replace with Google App passwords (16 characters)
-    text = f'Subject: HOT SPELL ALERT!\nTemperature in 2 hours will be {this_temp}.\nStay cool and drink more water!'
+    text = f'Subject: HOT SPELL ALERT!\nIn 2 hours, temperature in London will be {this_temp} degree Celsius.\nStay cool and drink more water!'
     smtplibObj = smtplib.SMTP(smtp_server, port)  # 587 for STARTTLS connection. 465 for SSL/TLS connection
     smtplibObj.ehlo()  # say hello to the gmail server
     smtplibObj.starttls()  # in case a problem occurs
