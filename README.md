@@ -24,7 +24,8 @@ THEN THAT - "Webhooks" widget
     
 ### 2. IFTTT send a Webhook request (server) to Pythonanywhere.com to auto run the "hot_spell_expelliarmus.py" (client)
 ###### Video instruction: https://youtu.be/UDEv0kcy8xI
-- Copy and paste the "hot_spell_expelliarmus.py" to (pythonanywhere.com > home > username > yourDirectory)
+- Create a new Web app on pythonanywhere.com (follow the instruction from 5:24 of https://www.youtube.com/watch?v=fmjFO5d2AsM)
+- Copy and paste the code of "hot_spell_expelliarmus.py", and replace all the code in the "flask_app.py" file of pythonanywhere.com ("Files" tab > /home/username/mysite)
 - Rememebr to "save" and "run" the program
 - Go to Dashboard > Web Apps (Open Web tab) > click "Reload yourAccountName.pythonanywhere.com"
    
