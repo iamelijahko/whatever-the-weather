@@ -9,7 +9,7 @@ However, even if you can enjoy the weather and manage social distancing, you cou
 
 ## What if ... you can receive a hot spell warning once you step into your favourite local parks?
 
-The project can be broken down into three main sections:
+The project can be broken down into five main sections:
 
 ### 1. Trigger an IFTTT command once you step into the park (IF "Location" THEN "Webhooks")
 ###### Video instruction: https://youtu.be/0aIHCevDfS4
@@ -31,17 +31,17 @@ THEN THAT - "Webhooks" widget
    - rememebr to "save" and "run" the program
    - Go to Dashboard > Web Apps (Open Web tab) > click "Reload yourAccountName.pythonanywhere.com"
    
-### 3a. Grabbing weather data ("hot_spell_expelliarmus.py"):
+### 3. Grabbing weather data ("hot_spell_expelliarmus.py"):
 
     - Make API call from https://openweathermap.org/api/one-call-api, to get current and forecast weather data.
     - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={YOUR API KEY}
     - Open an account from OpenWeather.com to gain your unique API key
 
-### 3b. Processing data:
+### 4. Processing data:
 
 Using Python to parse the acquired data. If temperature in the next 2 hours is over 30 degree Celsius. Trigger an alert message to your email.
 
-### 3c. Trigger output:
+### 5. Trigger output:
 
 Send alert to your mailbox with the following messages.
 "Subject: HOT SPELL ALERT! Body: Temperature in 2 hours will be {this_temp} degree Celsius. Stay cool and drink more water!"
