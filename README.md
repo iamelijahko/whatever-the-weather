@@ -40,11 +40,13 @@ THEN THAT - "Webhooks" widget
 - Send alert to your mailbox with the following messages.
 - "Subject: HOT SPELL ALERT! Body: Temperature in 2 hours will be {this_temp} degree Celsius. Stay cool and drink more water!"
 
-## Bonus: Instant Weather Alert with GUI
+### Bonus: Instant Weather Alert with GUI
 ###### Video demo: https://youtu.be/NK3kZEHtCiU
-File you need: "weather_forecast.py" and "config.ini"
 Weather forecast app with graphical interface. User can search the weather of every city in the coming 3 hours.
-With 5 different messages on the pop-up window:
+
+File you need: "weather_forecast.py" and "config.ini"
+
+5 different messages will appear on the pop-up window:
 - Freezing: Temperature lower than 5.0 degree Celsius
 - Cold: Temperature between 5.0 to 15.0 degree Celsius
 - Warm: Temperature between 15.0 to 25.0 degree Celsius
