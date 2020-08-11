@@ -7,7 +7,7 @@ import smtplib  # built-in module for sending emails
 
 url = 'https://api.openweathermap.org/data/2.5/onecall?lat={}&lon={}&appid={}&units=metric'
 
-# read and get API key
+# read and get API key, use it with 'config.ini' file
 config_file = 'config.ini'
 config = ConfigParser()
 config.read(config_file)
@@ -26,9 +26,9 @@ def email_alert(this_city, this_temp):
     # define the SMTP server:
     port = 587
     smtp_server = "smtp.gmail.com"
-    sender_email = "iamelijahko@gmail.com"
-    receiver_email = "elijah.ko@network.rca.ac.uk"
-    password = "hkgnyqtgytcpdwpo"
+    sender_email = "sender@gmail.com" # replace with your own email
+    receiver_email = "receiver@gmail.com" # replace with your own email
+    password = "abcd1234efgh5678"
     text = f'Subject: Python: Hot weather warning\n{this_city} will be BOILING in 3 hours!\nTemperature will be {this_temp} degree Celsius.\nRemember to drink more water!'
     smtplibObj = smtplib.SMTP(smtp_server, port)  # 587 for STARTTLS connection. 465 for SSL/TLS connection
     smtplibObj.ehlo()  # say hello to the gmail server
