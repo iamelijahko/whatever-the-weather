@@ -24,14 +24,14 @@ THEN THAT - "Webhooks" widget
     
 ### 2. IFTTT send a Webhook request (server) to Pythonanywhere.com to auto run the "hot_spell_expelliarmus.py" (client)
 ###### Video instruction: https://youtu.be/sewhAOozGO8
-   - copy and paste the "hot_spell_expelliarmus.py" to (pythonanywhere.com > home > username > yourDirectory)
-   - rememebr to "save" and "run" the program
-   - Go to Dashboard > Web Apps (Open Web tab) > click "Reload yourAccountName.pythonanywhere.com"
+- Copy and paste the "hot_spell_expelliarmus.py" to (pythonanywhere.com > home > username > yourDirectory)
+- Rememebr to "save" and "run" the program
+- Go to Dashboard > Web Apps (Open Web tab) > click "Reload yourAccountName.pythonanywhere.com"
    
 ### 3a. Grabbing weather data (run "hot_spell_expelliarmus.py" on pythonanywhere.com)
-   - Make API call from https://openweathermap.org/api/one-call-api, to get current and forecast weather data.
-   - API format - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={APIKEY}
-   - Open an account from OpenWeather.com to gain your unique API key
+- Make API call from https://openweathermap.org/api/one-call-api, to get current and forecast weather data.
+- API format - https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={APIKEY}
+- Open an account from OpenWeather.com to gain your unique API key
 
 ### 3b. Processing data
 - Using Python to parse the acquired data. If temperature in the next 2 hours is over 30 degree Celsius. Trigger an alert message to your email.
