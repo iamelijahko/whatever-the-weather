@@ -13,13 +13,13 @@ The project can be broken down into five main sections:
 
 ### 1. Trigger an IFTTT command once you step into the park (IF "Location" THEN "Webhooks")
 ###### Video instruction: https://youtu.be/0aIHCevDfS4
-- IF THIS - "Location" widget
-..* Select *"You enter an area"*, this triggers everytime you enter an area you specify. In my case, I have chosen the Roundwood Park.
-- THEN THAT - "Webhooks" widget
-##### URL field, fill in "*https://yourAccountName.pythonanywhere.com/ifttt*"
-##### Method: POST (optional)
-##### Content Type: text/plain (optional)
-##### Body: (optional)
+IF THIS - "Location" widget
+- Select *"You enter an area"*, this triggers everytime you enter an area you specify. In my case, I have chosen the Roundwood Park.
+THEN THAT - "Webhooks" widget
+- URL field, fill in "*https://yourAccountName.pythonanywhere.com/ifttt*"
+- Method: POST (optional)
+- Content Type: text/plain (optional)
+- Body: (optional)
     
 ### 2. IFTTT send a Webhook request (server) to Pythonanywhere.com to auto run the "hot_spell_expelliarmus.py" (client)
 ###### Video instruction: https://youtu.be/sewhAOozGO8
