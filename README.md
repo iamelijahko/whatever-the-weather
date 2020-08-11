@@ -39,3 +39,7 @@ THEN THAT - "Webhooks" widget
 ### 3c. Trigger output:
 - Send alert to your mailbox with the following messages.
 - "Subject: HOT SPELL ALERT! Body: Temperature in 2 hours will be {this_temp} degree Celsius. Stay cool and drink more water!"
+
+## Bonus: Instant Weather Alert with GUI
+Please refer to "weather_forecast.py"
+Basically, you can search the weather of every city in the coming 3 hours.
