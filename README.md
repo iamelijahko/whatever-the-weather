@@ -1,4 +1,4 @@
-Hot Spell Expelliarmus - Personal Heatwave Alert
+<h1>Hot Spell Expelliarmus - Your personal heatwave alert</h1>
 
 Now that lockdown is continuing to ease, we're excited about the prospect of enjoying, safely, more of the great outdoors this summer. That also means a return to the very British hobby of getting sun tanning in the parks!
 
@@ -8,10 +8,10 @@ What if ... you can receive a hot spell warning once you step into your favourit
 
 The project can be broken down into three main sections:
 
-1. Trigger an IFTTT command once you step into the park (IF "Location" THEN "Webhooks")
-   IF THIS -   "Location: widget
+<h3>1. Trigger an IFTTT command once you step into the park (IF "Location" THEN "Webhooks")</h3>
+   <br>IF THIS -   "Location: widget</br>
                 Select "You enter an area", this triggers everytime you enter an area you specify. In my case, I have chosen the Roundwood Park.
-   THEN THAT - "Webhooks" widget
+   <br>THEN THAT - "Webhooks" widget</br>
                 URL field, fill in "https://yourAccountName.pythonanywhere.com/ifttt
                 Method: POST (optional)
                 Content Type: text/plain (optional)
