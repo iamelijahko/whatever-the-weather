@@ -56,3 +56,10 @@ File you need to run together: **"weather_forecast.py"** and **"config.ini"**
 - Warm: Temperature between 15.0 to 25.0 degree Celsius
 - Hot: Temperature between 25.0 to 30.0 degree Celsius
 - Boilinig: Temperature higher than 30.0 degree Celsius
+
+##### Further Readings
+##### https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/temperature/heatwave
+##### https://www.health.harvard.edu/blog/does-weather-affect-arthritis-pain-2019011715789
+##### https://www.sciencedirect.com/science/article/pii/S0160412019300662
+##### https://www.nhs.uk/conditions/headaches/10-headache-triggers/#:~:text=5%20%E2%80%93%20Bad%20weather,nerves%2C%20leading%20to%20a%20headache.
+##### https://www.mayoclinic.org/diseases-conditions/migraine-headache/expert-answers/migraine-headache/faq-20058505
